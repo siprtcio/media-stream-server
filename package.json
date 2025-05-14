@@ -1,0 +1,18 @@
+{
+  "name": "siprtc-media-stream-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@deepgram/sdk": "^4.1.0",
+    "cross-fetch": "^4.1.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-ws": "^5.0.2",
+    "microsoft-cognitiveservices-speech-sdk": "^1.43.1",
+    "ws": "^8.18.2"
+  }
+}
