@@ -136,7 +136,7 @@ app.ws('/', (ws, req) => {
     if (msStream) msStream.close();
   });
 
-  ws.send('✅ Ready for SipRTC Media Stream');
+  // ws.send('✅ Ready for SipRTC Media Stream');
 });
 
 const PORT = 8080;
