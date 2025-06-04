@@ -102,3 +102,17 @@ ws.onclose = () => {
 - [ ] Commit: git commit -m "Add my feature"
 - [ ] Push: git push origin my-feature
 - [ ] Create a Pull Request
+
+## 🐳 Docker Deployment
+
+### Building the Docker Image
+```bash
+docker build -t media-stream-server .
+```
+
+### Running the Container
+```bash
+docker run -p 8080:8080 --env-file .env media-stream-server
+```
+
+Note: Make sure your `.env` file is in the same directory when running the container.
